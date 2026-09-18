@@ -2,8 +2,7 @@ name: Build and Deploy Single Page Application to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: ['**']
   workflow_dispatch:
 
 permissions:
